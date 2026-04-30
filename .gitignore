@@ -1,0 +1,8 @@
+node_modules
+.next
+out
+.tools
+.npm-cache
+*.tsbuildinfo
+.DS_Store
+*.log

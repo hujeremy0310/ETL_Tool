@@ -1,0 +1,24 @@
+{
+  "name": "excel-etl-tool",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "WATCHPACK_POLLING=true CHOKIDAR_USEPOLLING=true NEXT_TEST_WASM_DIR=$PWD/node_modules/@next/swc-wasm-nodejs next dev",
+    "build": "NEXT_TEST_WASM_DIR=$PWD/node_modules/@next/swc-wasm-nodejs next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "15.5.15",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "xlsx": "0.18.5"
+  },
+  "devDependencies": {
+    "@next/swc-wasm-nodejs": "15.5.15",
+    "@types/node": "22.15.3",
+    "@types/react": "19.1.2",
+    "@types/react-dom": "19.1.2",
+    "typescript": "5.8.3"
+  }
+}
